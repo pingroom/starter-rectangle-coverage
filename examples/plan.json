@@ -1,0 +1,31 @@
+{
+  "planId": "packing-floor",
+  "title": "Packing floor coverage",
+  "unit": "metres",
+  "workspace": {
+    "x0": 0,
+    "y0": 0,
+    "x1": 10,
+    "y1": 8
+  },
+  "footprints": [
+    {
+      "id": "east",
+      "label": "East work zone",
+      "description": "Include while the east work zone is active.",
+      "x0": 4,
+      "y0": 2,
+      "x1": 10,
+      "y1": 8
+    },
+    {
+      "id": "west",
+      "label": "West work zone",
+      "description": "Include while the west work zone is active.",
+      "x0": 0,
+      "y0": 0,
+      "x1": 6,
+      "y1": 6
+    }
+  ]
+}
